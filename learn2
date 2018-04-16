@@ -1,3 +1,7 @@
 It's my second file.
 New line added in learn2.
+<<<<<<< HEAD
 It is for test.
+=======
+Checking for conflict.
+>>>>>>> Checking for conflict
