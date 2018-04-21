@@ -1,3 +1,7 @@
 It's my second file.
+<<<<<<< HEAD
 New line added in learn2.
+=======
+For Rebase.
+>>>>>>> fb65e097a63ae7577dd9db9dd50ffed6c42ef0a1
 Checking for conflict.
