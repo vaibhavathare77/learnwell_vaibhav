@@ -1,0 +1,6 @@
+projectKey=org.codehaus.sonar:example-java-maven
+serverUrl=http://localhost:9000
+serverVersion=6.7.3.38370
+dashboardUrl=http://localhost:9000/dashboard/index/org.codehaus.sonar:example-java-maven
+ceTaskId=AWMQ9EU_zeUtq0WACODc
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWMQ9EU_zeUtq0WACODc

@@ -1,0 +1,6 @@
+projectKey=org.codehaus.sonar:example-ut-maven-jacoco
+serverUrl=http://localhost:9000
+serverVersion=6.7.3.38370
+dashboardUrl=http://localhost:9000/dashboard/index/org.codehaus.sonar:example-ut-maven-jacoco
+ceTaskId=AWMRH7dwzeUtq0WACODj
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWMRH7dwzeUtq0WACODj
