@@ -1,0 +1,13 @@
+---
+- hosts: remote
+  #connection: local
+  become: yes
+  tasks:
+  - name: ansible create multiple directory example
+    file:
+      path: "{{ item }}"
+      state: directory
+    with_items:
+      - '/home/vagrant/devops_system1'
+      - '/home/vagrant/devops_system2'
+      - '/home/vagrant/devops_system3'
