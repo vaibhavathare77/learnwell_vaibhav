@@ -3,11 +3,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                timeout(time: 3, unit: 'MINUTES') {
                 sh 'date'
                 sh '''
                     echo "Hello World"
                     echo "-------------------------------------------------"
                 '''
+                }
             }
         }
         stage('Deploy') {
