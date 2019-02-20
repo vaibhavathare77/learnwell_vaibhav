@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo date'
+                sh 'date'
                 sh '''
                     echo "Hello World"
                     echo "-------------------------------------------------"
@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                sh 'echo "date'
+                sh 'date'
                 sh '''
                     touch output.txt
                     date >>output.txt
