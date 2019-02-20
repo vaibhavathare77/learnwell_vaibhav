@@ -3,12 +3,20 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo "Hello World"'
+                sh 'echo date'
                 sh '''
-                    echo "Multiline shell steps works too"
-                    date
+                    echo "Hello World"
+                    echo "-------------------------------------------------"
                 '''
             }
         }
+        stage('Deploy') {
+            steps {
+                sh 'echo "date'
+                sh '''
+                    touch output.txt
+                    date >>output.txt
+                '''
+            }
     }
 }
