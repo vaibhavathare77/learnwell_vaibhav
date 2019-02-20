@@ -18,5 +18,6 @@ pipeline {
                     date >>output.txt
                 '''
             }
+        }   
     }
 }
