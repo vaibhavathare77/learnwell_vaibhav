@@ -5,8 +5,8 @@ pipeline {
             steps {
                 sh 'ls'
                 sh '''
-                echo "${currentBuild.fullDisplayName}"
-                echo "${env.BUILD_URL}"
+                echo "Build url"
+                echo "${BUILD_URL}"
                 '''
             }
         }
