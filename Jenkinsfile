@@ -7,15 +7,9 @@ pipeline {
                 sh '''
                 echo "Build url"
                 echo "${BUILD_URL}"
+                echo "${currentBuild.fullDisplayName}"
                 '''
             }
         }
     }
-    post {
-    success {
-        mail to: 'vaibhavathare77@gmail.com',
-             subject: "Failed Pipeline:",
-             body: "Something is wrong with"
-    }
-}
 }
