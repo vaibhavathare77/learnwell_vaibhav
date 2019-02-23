@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'ls'
                 sh '''
+                echo "for pull"
                 echo "BUILD_URL"
                 echo "${BUILD_URL}"
                 echo "BUILD_TAG"
