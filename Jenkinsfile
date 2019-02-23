@@ -4,7 +4,6 @@ pipeline {
         stage('No-op') {
             steps {
                 sh 'ls'
-                sh 'date'
                 sh '''
                 echo "BUILD_URL"
                 echo "${BUILD_URL}"
