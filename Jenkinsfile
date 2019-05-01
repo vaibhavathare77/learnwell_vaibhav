@@ -1,5 +1,9 @@
 pipeline {
     agent any
+	environment {
+        surname = "Palase"
+        firstname = "Krishana"
+        }
     stages {
         stage('No-op') {
             steps {
