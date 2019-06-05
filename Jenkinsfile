@@ -8,6 +8,7 @@ pipeline {
         stage('No-op') {
             steps {
                 sh 'ls'
+		sh 'date'
                 sh '''
                 echo "for pull"
                 echo "BUILD_URL"
