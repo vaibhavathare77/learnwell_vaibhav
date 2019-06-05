@@ -4,6 +4,7 @@ pipeline {
         surname = "Kagde"
         firstname = "Krishana"
         }
+    triggers { pollSCM('H */4 * * 1-5') }
     stages {
         stage('No-op') {
             steps {
